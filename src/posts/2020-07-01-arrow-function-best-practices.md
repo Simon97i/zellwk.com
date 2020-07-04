@@ -13,7 +13,7 @@ When `this` is used in an arrow function, `this` will be the `this` value in the
 Arrow functions change MANY things, so there are two best practices you need to know. 
 
 1. Don't create methods with arrow functions
-2. Create functions INISDE methods with arrow functions
+2. Create functions INSIDE methods with arrow functions
 
 <!-- more -->
 
@@ -100,7 +100,7 @@ zell.sayHi()
 
 In short: **Do not use arrow functions to create methods!** 
 
-## Create functions INISDE methods with arrow functions
+## Create functions INSIDE methods with arrow functions
 
 `this` always points to `Window` when it is used in a simple function. The statement is true even if you create a simple function inside a method. 
 
